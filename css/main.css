@@ -8,42 +8,47 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: left;
+  display: inline;
+  font-weight: bold;
+  line-height: 1.41;
+  padding-left: 5px;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  font-style: italic;
+  margin: 1rem 0 1.34rem;
+  padding-left: 3px;
+}
+
+.banner {
+  max-width: 50em;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  padding: 0 1.34rem;
+}
+
 .img-flex {
   display: block;
   width: 100%;
 }
 
-.banner {
-  position: absolute;
-  border: 1px solid #ccc;
-  border-radius: 0 6px 6px;
-  max-width: 50em;
-  left: 50%;
-  transform: translate(-50%);
-  width: 100%;
-  bottom: 1rem;
-  margin: 0 0 1rem;
-  margin-left: 1.5rem;
-}
-
-p {
-  margin: 0;
-  font-size: 2rem;
-  font-style: italic;
-}
-
-h2 {
-  text-align: left;
-  font-size: 4rem;
-  background-color: rgba(0, 0, 0, .5);
-  color: white;
-  display: inline;
-  padding-bottom: 7px;
-}
-
-body {
+section {
   overflow: hidden;
   position: relative;
   max-height: 500px;
-  margin: 0;
 }
